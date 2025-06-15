@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-    cout << "Witaj w programie obliczajacym memesense.gg" << endl;
-    cout << "wybierz jedna z opcji : " << endl;
-    cout << "1. Dodawanie" << endl << "2. Odejmowanie" << endl << "3. Mnozenie" << endl << "4. Dzielenie" << endl;
+    cout << "Welcome in calculator" << endl;
+    cout << "Choose one of the options : " << endl;
+    cout << "1. Adding" << endl << "2. Subtracting" << endl << "3. Multiplicating" << endl << "4. Dividing" << endl;
     int wybur;
     cin >> wybur;
     double a,b;
@@ -49,7 +49,7 @@ int main()
 
         if(a == 0 || b == 0)
         {
-            cout << "cholero nie dziel przez zero";
+            cout << "It doesn't work that way";
             return 0;
         }
 
@@ -57,7 +57,7 @@ int main()
         break;
 
         default:
-        cout << "error you fukin monkey";
+        cout << "error you always had trouble with saying brian";
 
 
     }
